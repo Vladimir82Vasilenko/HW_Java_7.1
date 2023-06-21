@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class StatsServiceTest {
     @Test
-    public void shouldMaxSumSales() {
+    public void MaxSumSales() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -17,7 +17,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void shouldAverageSumSales() {
+    public void AverageSumSales() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -28,7 +28,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expectedSumSales, actualSumSales);
     }
     @Test
-    public void shouldMaxMonthSales() {
+    public void MaxMonthSales() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -40,7 +40,7 @@ public class StatsServiceTest {
 
     }
     @Test
-    public void shouldMinMonthSales() {
+    public void MinMonthSales() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -53,7 +53,7 @@ public class StatsServiceTest {
 
 
     @Test
-    public void shouldMinMonthAverageSales() {
+    public void MinMonthAverage() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
@@ -65,7 +65,7 @@ public class StatsServiceTest {
     }
 
     @Test
-    public void shouldMaxMonthAverageSales() {
+    public void MaxMonthAverage() {
         StatsService service = new StatsService();
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};

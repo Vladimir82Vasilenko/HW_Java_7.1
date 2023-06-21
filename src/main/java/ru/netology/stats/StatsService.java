@@ -43,8 +43,9 @@ public class StatsService {
 
     public int minAverageSales(int[] sales){
         int month = 0;
-        for (int i : sales) {
-            if(i < averageSales(sales)){
+        int averageSales = averageSales(sales);
+        for (int sale : sales) {
+            if(sale < averageSales){
                 month++;
             }
         }
@@ -53,8 +54,9 @@ public class StatsService {
 
     public int maxAverageSales(int[] sales){
         int month = 0;
-        for (int i : sales) {
-            if(i > averageSales(sales)){
+        int averageSales = averageSales(sales);
+        for (int sale : sales) {
+            if(sale > averageSales){
                 month++;
             }
         }
